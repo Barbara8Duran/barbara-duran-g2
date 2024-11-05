@@ -1,0 +1,18 @@
+.mw-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30vh;
+    width: 100%;
+}
+
+.mw-banner h1{
+    color: #ffabd1;
+    font-weight: 500;
+}
+
+.mw-banner p{
+    color: #fff;
+    font-weight: 500;
+}
