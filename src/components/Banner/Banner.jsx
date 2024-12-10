@@ -1,6 +1,15 @@
 import './Banner.css'
 
-const Banner = ({ title, subtitle, backgroundImage, height = '400px', width = '100%', borderRadius = '0px' }) =>{
+const Banner = ({ 
+  title, 
+  subtitle, 
+  backgroundImage, 
+  height = '400px', 
+  width = '100%', 
+  borderRadius = '0px', 
+  h1PaddingTop = '0px',
+  }) =>{
+
     const bannerStyle = {
       backgroundImage: `url(${backgroundImage})`,
       backgroundSize: 'cover',
@@ -10,11 +19,15 @@ const Banner = ({ title, subtitle, backgroundImage, height = '400px', width = '1
       borderRadius: borderRadius,
     };
 
+    const h1Style = {
+      paddingTop: h1PaddingTop,  
+    };
+
     return (
       <div className="banner" style={bannerStyle}>
         <div className="banner-content">
-          <h1>{title}</h1>
-          <p>{subtitle}</p>
+        <h1 style={h1Style}>{title}</h1>
+        <p>{subtitle}</p>
         </div>
       </div>
     );

@@ -1,8 +1,7 @@
 .milogo > img{
-    width: 150px;
+    width: 90px;
 }
 
 .milogo {
-    position: relative;
-    left: -370px;
+    position: absolute;
 }

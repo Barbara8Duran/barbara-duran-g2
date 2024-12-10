@@ -9,8 +9,10 @@ const InputBanner = ({ title, backgroundImage }) => {
     return (
         <div className="form" style={bannerType}>
             <h1>{title}</h1>
-            <input type="text" placeholder="Ingrese su correo" />
-            <button className="normal">Inscribirse</button>
+            <div className="input-container">
+                <input type="text" placeholder="Ingrese su correo" />
+                <button className="normal">Inscribirse</button>
+            </div>
         </div>
     );
 }

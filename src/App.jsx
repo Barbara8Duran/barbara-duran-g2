@@ -6,7 +6,7 @@ import Footer from './components/Footer/Footer'
 
 import HomePage from './components/Pages/Home/Home';
 import ShopPage from './components/Pages/Shop/Shop';
-import CartPage from './components/Pages/Cart/Cart';
+import CartPage from './components/Pages/CartPage/CartPage';
 import ContactsPage from './components/Pages/Contacts/Contacts';
 import ProductPage from './components/Pages/ProductPage/ProductPage';
 import ProductsCategory from './components/Category/Category';

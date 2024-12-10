@@ -17,13 +17,13 @@ footer .col{
     margin-bottom: 20px;
 }
 
-footer.logo{
-    margin-bottom: 30px;
+.logo-footer{
+    margin-bottom: 70px;
 }
 
 footer h4{
     font-size: 20px;
-    padding-bottom: 20px;
+    padding-bottom: px;
 }
 
 footer p{
@@ -36,21 +36,6 @@ footer a{
     text-decoration: none;
     color: #222;
     margin-bottom: 10px;
-}
-
-footer .follow{
-    margin-top: 20px;
-}
-
-footer .follow i{
-    color:#660371;
-    padding-right: 4px;
-    cursor: pointer;
-}
-
-footer .follow i:hover,
-footer a:hover{
-    color: #d318b4;
 }
 
 footer .copyright{

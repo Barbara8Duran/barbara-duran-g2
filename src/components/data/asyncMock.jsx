@@ -6,7 +6,7 @@ export const products = [
         price: 1000,
         description: '¡Adopta un compañero peludo y lleno de amor! Nuestros adorables gatos buscan un hogar donde puedan recibir cariño y cuidado. Cada uno tiene su propia personalidad, desde los juguetones y curiosos hasta los tiernos y tranquilos. Al adoptar, no solo salvas una vida, sino que también te ganarás un amigo leal que te llenará de alegría. Ven y conoce a tus futuros amigos felinos hoy mismo.',
         stock: 5,
-        category: 'poleras'
+        category: 'gato-enojado'
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const products = [
         price: 1000,
         description: '¡Adopta un compañero peludo y lleno de amor! Nuestros adorables gatos buscan un hogar donde puedan recibir cariño y cuidado. Cada uno tiene su propia personalidad, desde los juguetones y curiosos hasta los tiernos y tranquilos. Al adoptar, no solo salvas una vida, sino que también te ganarás un amigo leal que te llenará de alegría. Ven y conoce a tus futuros amigos felinos hoy mismo.',
         stock: 7,
-        category: 'pantalones'
+        category: 'gato-perdido'
     },
     {
         id: 3,
@@ -24,16 +24,16 @@ export const products = [
         price: 1000,
         description: '¡Adopta un compañero peludo y lleno de amor! Nuestros adorables gatos buscan un hogar donde puedan recibir cariño y cuidado. Cada uno tiene su propia personalidad, desde los juguetones y curiosos hasta los tiernos y tranquilos. Al adoptar, no solo salvas una vida, sino que también te ganarás un amigo leal que te llenará de alegría. Ven y conoce a tus futuros amigos felinos hoy mismo.',
         stock: 5,
-        category: 'poleras'
+        category: 'gato-triste'
     },
     {
         id: 4,
         name: 'gato confundido',
-        img: 'gato4.jpg',
+        img: 'https://i.imgflip.com/8t8m00.png',
         price: 1000,
         description: '¡Adopta un compañero peludo y lleno de amor! Nuestros adorables gatos buscan un hogar donde puedan recibir cariño y cuidado. Cada uno tiene su propia personalidad, desde los juguetones y curiosos hasta los tiernos y tranquilos. Al adoptar, no solo salvas una vida, sino que también te ganarás un amigo leal que te llenará de alegría. Ven y conoce a tus futuros amigos felinos hoy mismo.',
         stock: 7,
-        category: 'pantalones'
+        category: 'gato-confundido'
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ export const products = [
         price: 1000,
         description: '¡Adopta un compañero peludo y lleno de amor! Nuestros adorables gatos buscan un hogar donde puedan recibir cariño y cuidado. Cada uno tiene su propia personalidad, desde los juguetones y curiosos hasta los tiernos y tranquilos. Al adoptar, no solo salvas una vida, sino que también te ganarás un amigo leal que te llenará de alegría. Ven y conoce a tus futuros amigos felinos hoy mismo.',
         stock: 5,
-        category: 'poleras'
+        category: 'gato-enojado'
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ export const products = [
         price: 1000,
         description: '¡Adopta un compañero peludo y lleno de amor! Nuestros adorables gatos buscan un hogar donde puedan recibir cariño y cuidado. Cada uno tiene su propia personalidad, desde los juguetones y curiosos hasta los tiernos y tranquilos. Al adoptar, no solo salvas una vida, sino que también te ganarás un amigo leal que te llenará de alegría. Ven y conoce a tus futuros amigos felinos hoy mismo.',
         stock: 7,
-        category: 'pantalones'
+        category: 'gato-perdido'
     },
     {
         id: 7,
@@ -60,18 +60,89 @@ export const products = [
         price: 1000,
         description: '¡Adopta un compañero peludo y lleno de amor! Nuestros adorables gatos buscan un hogar donde puedan recibir cariño y cuidado. Cada uno tiene su propia personalidad, desde los juguetones y curiosos hasta los tiernos y tranquilos. Al adoptar, no solo salvas una vida, sino que también te ganarás un amigo leal que te llenará de alegría. Ven y conoce a tus futuros amigos felinos hoy mismo.',
         stock: 5,
-        category: 'poleras'
+        category: 'gato-triste'
     },
     {
         id: 8,
         name: 'gato confundido',
-        img: 'gato4.jpg',
+        img: 'https://i.imgflip.com/8t8m00.png',
         price: 1000,
         description: '¡Adopta un compañero peludo y lleno de amor! Nuestros adorables gatos buscan un hogar donde puedan recibir cariño y cuidado. Cada uno tiene su propia personalidad, desde los juguetones y curiosos hasta los tiernos y tranquilos. Al adoptar, no solo salvas una vida, sino que también te ganarás un amigo leal que te llenará de alegría. Ven y conoce a tus futuros amigos felinos hoy mismo.',
         stock: 7,
-        category: 'pantalones'
+        category: 'gato-confundido'
     },
-    
+    {
+        id: 9,
+        name: 'gato enojado',
+        img: '/gato9.jpg',
+        price: 1000,
+        description: '¡Adopta un compañero peludo y lleno de amor! Nuestros adorables gatos buscan un hogar donde puedan recibir cariño y cuidado. Cada uno tiene su propia personalidad, desde los juguetones y curiosos hasta los tiernos y tranquilos. Al adoptar, no solo salvas una vida, sino que también te ganarás un amigo leal que te llenará de alegría. Ven y conoce a tus futuros amigos felinos hoy mismo.',
+        stock: 10,
+        category: 'gato-enojado'
+    },
+    {
+        id: 10,
+        name: 'gato perdido',
+        img: '/gato10.jpg',
+        price: 1000,
+        description: '¡Adopta un compañero peludo y lleno de amor! Nuestros adorables gatos buscan un hogar donde puedan recibir cariño y cuidado. Cada uno tiene su propia personalidad, desde los juguetones y curiosos hasta los tiernos y tranquilos. Al adoptar, no solo salvas una vida, sino que también te ganarás un amigo leal que te llenará de alegría. Ven y conoce a tus futuros amigos felinos hoy mismo.',
+        stock: 7,
+        category: 'gato-perdido'
+    },
+    {
+        id: 11,
+        name: 'gato triste',
+        img: '/gato11.jpg',
+        price: 1000,
+        description: '¡Adopta un compañero peludo y lleno de amor! Nuestros adorables gatos buscan un hogar donde puedan recibir cariño y cuidado. Cada uno tiene su propia personalidad, desde los juguetones y curiosos hasta los tiernos y tranquilos. Al adoptar, no solo salvas una vida, sino que también te ganarás un amigo leal que te llenará de alegría. Ven y conoce a tus futuros amigos felinos hoy mismo.',
+        stock: 5,
+        category: 'gato-triste'
+    },
+    {
+        id: 12,
+        name: 'gato confundido',
+        img: '/gato12.jpg',
+        price: 1000,
+        description: '¡Adopta un compañero peludo y lleno de amor! Nuestros adorables gatos buscan un hogar donde puedan recibir cariño y cuidado. Cada uno tiene su propia personalidad, desde los juguetones y curiosos hasta los tiernos y tranquilos. Al adoptar, no solo salvas una vida, sino que también te ganarás un amigo leal que te llenará de alegría. Ven y conoce a tus futuros amigos felinos hoy mismo.',
+        stock: 7,
+        category: 'gato-confundido'
+    },
+    {
+        id: 13,
+        name: 'gato enojado',
+        img: '/gato9.jpg',
+        price: 1000,
+        description: '¡Adopta un compañero peludo y lleno de amor! Nuestros adorables gatos buscan un hogar donde puedan recibir cariño y cuidado. Cada uno tiene su propia personalidad, desde los juguetones y curiosos hasta los tiernos y tranquilos. Al adoptar, no solo salvas una vida, sino que también te ganarás un amigo leal que te llenará de alegría. Ven y conoce a tus futuros amigos felinos hoy mismo.',
+        stock: 5,
+        category: 'gato-enojado'
+    },
+    {
+        id: 14,
+        name: 'gato perdido',
+        img: '/gato10.jpg',
+        price: 1000,
+        description: '¡Adopta un compañero peludo y lleno de amor! Nuestros adorables gatos buscan un hogar donde puedan recibir cariño y cuidado. Cada uno tiene su propia personalidad, desde los juguetones y curiosos hasta los tiernos y tranquilos. Al adoptar, no solo salvas una vida, sino que también te ganarás un amigo leal que te llenará de alegría. Ven y conoce a tus futuros amigos felinos hoy mismo.',
+        stock: 7,
+        category: 'gato-perdido'
+    },
+    {
+        id: 15,
+        name: 'gato triste',
+        img: '/gato11.jpg',
+        price: 1000,
+        description: '¡Adopta un compañero peludo y lleno de amor! Nuestros adorables gatos buscan un hogar donde puedan recibir cariño y cuidado. Cada uno tiene su propia personalidad, desde los juguetones y curiosos hasta los tiernos y tranquilos. Al adoptar, no solo salvas una vida, sino que también te ganarás un amigo leal que te llenará de alegría. Ven y conoce a tus futuros amigos felinos hoy mismo.',
+        stock: 5,
+        category: 'gato-triste'
+    },
+    {
+        id: 16,
+        name: 'gato confundido',
+        img: '/gato12.jpg',
+        price: 1000,
+        description: '¡Adopta un compañero peludo y lleno de amor! Nuestros adorables gatos buscan un hogar donde puedan recibir cariño y cuidado. Cada uno tiene su propia personalidad, desde los juguetones y curiosos hasta los tiernos y tranquilos. Al adoptar, no solo salvas una vida, sino que también te ganarás un amigo leal que te llenará de alegría. Ven y conoce a tus futuros amigos felinos hoy mismo.',
+        stock: 7,
+        category: 'gato-confundido'
+    },
 ]
 
 export const getProducts = () =>{

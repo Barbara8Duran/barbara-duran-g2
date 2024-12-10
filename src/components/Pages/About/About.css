@@ -1,5 +1,7 @@
 .hero-2 {
-    background-attachment: fixed;
+    text-shadow: 
+        -2px -2px 0 #ffe9f2,
+        -2px 2px 0 #ffebf3;
 }
 
 .banner-a{

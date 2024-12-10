@@ -2,68 +2,55 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    max-width: 1200px;
+    display: flex; 
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .s-container {
     display: flex;
-    align-items: center;
-    justify-content: center; 
-    gap: 20px; 
-    
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
 }
 
-.text-container{
+.text-container {
     background-color: #f2e7eb;
     border-radius: 4px;
     padding: 20px;
     height: 560px;
     max-width: 500px;
-    justify-content: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-
-
 .img-p {
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
-    width: 500px;
-    padding: 50px;
+    max-width: 600px;
+    height: auto;
 }
 
 .img-p img {
     width: 100%;
-    height: 100%;
-    object-fit: cover; 
+    height: auto;
+    object-fit: cover;
 }
 
-.s-container > div {
+.i-d-button {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
 }
 
-.s-container h1 {
-    margin: 0;
-    padding-bottom: 10px;
-    text-transform: uppercase;
-}
-
-.s-container p {
-    font-size: 20px;
-    margin: 0;
-    line-height: 1.6;
-}
-
-.i-d-button{
-    display: flex;
-    padding-top: 15px;
-    padding-bottom: 15px;
-
-}
-
-.i-button{
+.i-button, .d-button, .buy-button {
     height: 34px;
     font-size: 14px;
     background-color: #bc718e;
@@ -71,40 +58,17 @@
     white-space: nowrap;
     border: 1px solid transparent;
     border-radius: 4px;
+    padding: 0 15px;
 }
 
-.d-button{
-    height: 34px;
-    font-size: 14px;
-    background-color: #bc718e;
-    color: #fff;
-    white-space: nowrap;
-    border: 1px solid transparent;
-    border-radius: 4px;
+.buy-button {
+    margin-top: 20px;
+    width: 150px;
 }
-.number{
-    padding-left: 8px;
-    padding-right: 8px;
-}
-.d-button:hover{
+
+.i-button:hover, .d-button:hover, .buy-button:hover {
     cursor: pointer;
-}
-
-.i-button:hover{
-    cursor: pointer;
-}
-
-.buy-button{
-    height: 34px;
-    font-size: 16px;
-    background-color: #bc718e;
-    color: #fff;
-    white-space: nowrap;
-    border: 1px solid transparent;
-    border-radius: 4px;
-}
-
-.buy-button:hover{
-    cursor: pointer;
-    color: rgb(0, 0, 0);
+    background: #c0e2ef;
+    color: #000000;
+    transition: 0.3s ease;
 }

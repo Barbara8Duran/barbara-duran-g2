@@ -8,41 +8,45 @@ export default function Main(){
             <div className='banner1'>
             <Banner
             title="Bienvenido a Nuestro Sitio"
-            subtitle="Ofrecemos los mejores servicios"
-            backgroundImage="./gato1.jpg"
+            subtitle="Ofrecemos los mejores servicios en adopción!"
+            backgroundImage="./adop1.jpg"
             height="350px"
             width="450px"
-            borderRadius="8px" 
+            borderRadius="8px"
+            h1PaddingTop='170px'
             />
             </div>
             <div className='banner2'>
             <Banner
             title="Promoción Especial"
-            subtitle="¡No te pierdas nuestras ofertas!"
-            backgroundImage="./gato2.jpg"
+            subtitle="LLeva un gato y te enseñamos a cuidarlo!"
+            backgroundImage="./adop4.jpg"
             height="350px"
             width="400px"
-            borderRadius="8px" 
+            borderRadius="8px"
+            h1PaddingTop='170px'
             />
             </div>
             <div className='banner3'>
             <Banner
-            title="Promoción Especial"
-            subtitle="¡No te pierdas nuestras ofertas!"
-            backgroundImage="./gato3.jpg"
+            title="Toma cursos de cuidado"
+            subtitle="Aprende a cuidar a tu gato!"
+            backgroundImage="./adop5.jpg"
             height="350px"
             width="450px"
-            borderRadius="8px" 
+            borderRadius="8px"
+            h1PaddingTop='170px' 
             />
             </div>
             <div className='banner4'>
             <Banner
-            title="Promoción Especial"
-            subtitle="¡No te pierdas nuestras ofertas!"
-            backgroundImage="./gato4.jpg"
+            title="Dona para ayudar a más gatos"
+            subtitle="Día a día ayudamos a los felinos a encontrar su hogar!"
+            backgroundImage="./adop2.jpg"
             height="300px"
             width="700px"
-            borderRadius="8px" 
+            borderRadius="8px"
+            h1PaddingTop='100px' 
             />
             </div>
         </main>

@@ -13,7 +13,10 @@
 
 .hero h4{
     font-size: 20px;
-    color: #222;
+    color: #7dbfbb;
+    text-shadow: 
+        -2px -2px 0 #137d8b,
+        -2px 2px 0 #0c8696;
 }
 
 .hero h2{
@@ -23,15 +26,21 @@
 }
 
 .hero h1{
-    color:#088178;
+    color:#CEE8F2;
     font-size: 50px;
     line-height: 64px;
+    text-shadow: 
+        -2px -2px 0 #1f8f9e,
+        -2px 2px 0 #50d3e4;
 }
 
 .hero p{
     padding-bottom: 15px;
     font-size: 20px;
-    color: #39b8a2;
+    color: #CEE8F2;
+    text-shadow: 
+        -2px -2px 0 #1f8f9e,
+        -2px 2px 0 #136772;
 }
 
 
@@ -41,7 +50,7 @@
     text-transform: uppercase;
     padding: 15px 30px;
     color: #fff;
-    background-color:#088178;
+    background-color:#7dbfbb;
     border-radius: 4px;
     cursor: pointer;
     border: none;
